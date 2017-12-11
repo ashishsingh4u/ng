@@ -1,4 +1,5 @@
-Sample solution to demonstrate the basics of Angular 5
+# Sample solution to demonstrate the basics of Angular 5
+
 [![Build Status](https://travis-ci.org/ashishsingh4u/ng5.svg?branch=master)](https://travis-ci.org/ashishsingh4u/ng5)
 
 # Ng5
