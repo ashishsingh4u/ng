@@ -9,13 +9,13 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute, private router: Router) { 
+  constructor(private route: ActivatedRoute, private router: Router) {
     this.route.params.subscribe(res => console.log(res.id));
   }
 
   ngOnInit() {
   }
-  
+
   sendMeHome() {
     this.router.navigate(['']);
   }
