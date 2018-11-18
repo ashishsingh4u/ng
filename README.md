@@ -1,8 +1,8 @@
-# Sample solution to demonstrate the basics of Angular 5
+# Sample solution to demonstrate the basics of Angular 7
 
 [![Build Status](https://travis-ci.org/ashishsingh4u/ng5.svg?branch=master)](https://travis-ci.org/ashishsingh4u/ng5)
 
-# Ng5
+# Ng7
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
