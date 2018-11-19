@@ -20,9 +20,8 @@ before_install:
 before_script:
 - npm install -g --silent @angular/cli
 - npm install -g karma
-- npm install
-- ng build
+- npm ci
 
 script: 
-- ng test --watch=false
+- npm run ci
 - bash ./.travis-deploy.sh
