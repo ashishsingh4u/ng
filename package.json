@@ -1,5 +1,5 @@
 {
-  "name": "ng5",
+  "name": "ng",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "clean": "rimraf ./dist/",
+    "build:prod": "ng build --prod --vendor-chunk",
+    "ci": "npm run clean && ng test --watch=false --code-coverage && npm run build:prod -- --deploy-url /ng/ --base-href /ng"
   },
   "private": true,
   "dependencies": {
