@@ -23,4 +23,6 @@ before_script:
 - npm install
 - ng build
 
-script: ng test --watch=false
+script: 
+- ng test --watch=false
+- bash ./.travis-deploy.sh
